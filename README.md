@@ -28,7 +28,6 @@ sudo snap install terraform --classic
 terraform  --version
 
 
-
 # CMD
 
 
