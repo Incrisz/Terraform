@@ -46,3 +46,8 @@ terraform apply -auto-approve
 terraform destroy -auto-approve
 # Terraform
 # Terraform
+
+# Once you have found the address, for example if the address is github_repository.my_repo, you can proceed to remove it from Terraform's state management with the following command:
+
+
+terraform state rm github_repository.example
