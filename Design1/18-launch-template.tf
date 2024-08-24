@@ -1,6 +1,6 @@
 resource "aws_launch_template" "Design1_launch_template" {
   name_prefix   = "Design1-Template"
-  description   = " launch template to install Apache2. v1"
+  description   = " launch template to install Apache2. v3"
   image_id      = "ami-04a81a99f5ec58529" # Use your own AMI ID
   instance_type = "t2.micro"              # Choose your preferred instance type
 
